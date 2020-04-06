@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <title>JESSIE-LAPTOP\\JESSIE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th></th>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+        
+        <form action="" method="POST">
+            ID: <input type="text" id="id" name="id">
+            Name: <input type="text" id="name" name="name">
+            DOB: <input type="date" id="dob" name="dob">
+            
+            <!--Login-->
+            User: <input type="text" id="username" name="username">
+            Password: <input type="password" id="password" name="password">
+            
+            <!--Radio button-->
+            <input type="radio" id="gender" name="gender" value="1">Male
+            
+            <!--check box-->
+            <input type="checkbox" id="check" name="check" value="1">Option 1
+            
+            <!--Drop down list-->
+            <select id="deptid" name="deptid">
+                <option value="id">Option 1</option>
+            </select>
+            
+            <!--Text area-->
+            <textarea name="content" rows="10" ></textarea>
+            
+            <!--Button-->
+            <input type="submit" value="Save">
+        </form>
+        
+        <!--Format Date-->
+    <fmt:parseDate value="2000-03-11" pattern="yyyy-MM-dd" var="date"></fmt:parseDate>
+    DOB: <fmt:formatDate value="${date}" pattern="dd/MM/yyyy" /><br>
+    
+    </body>
+    
+</html>
