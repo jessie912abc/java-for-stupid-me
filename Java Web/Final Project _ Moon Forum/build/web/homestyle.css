@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 28, 2020, 2:01:17 AM
+    Author     : Jessie
+*/
+
+body{
+    background-image: url("cover.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.content-item{
+    max-width: 960px;
+    margin: auto;
+} 
+h3{
+    color: #FFAA36
+}
+.seperator{
+    height: 20px;
+    width:960px; 
+    background-color: transparent;
+}
+.btn-create{
+    color: #000000;
+    background-color: #FFAA36;
+    border-color: #FFAA36;
+    font-weight: normal;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 5px;
+}
+.btn-create:hover,
+.btn-create:active,
+.btn-create:focus,
+.btn-create.active {
+    background: #CC882B;
+    color: #000000;
+    border-color: #CC882B;
+
+}
+.btn-like{
+    color: #000000;
+    background-color: #FFAA36;
+    border-color: #FFAA36;
+    font-weight: normal;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 5px;
+}
+.btn-like:hover,
+.btn-like:active,
+.btn-like:focus,
+.btn-like.active {
+    background: #CC882B;
+    color: #000000;
+    border-color: #CC882B;
+
+}
+ion-icon {
+    color: #FFAA36;
+    font-size: 30px;
+}
+.dropdown-item{
+    background-color: #000000;
+    border-color: #000000;
+    border-width: thin;
+    color: #FFAA36;
+}
+.dropdown-item:hover{
+    background-color: #533812;
+    border-color: #533812;
+    color: #FFAA36;
+}
+.dropdown-menu{
+    background-color: #000000;
+    border-color: #000000;
+    border-width: thin;
+    color: #FFAA36;
+}
+.sticky-offset-first{
+    top: 90px;
+}
+.sticky-offset-second{
+    top: 320px;
+}
+menu{
+    display: inline;
+    padding: 5px;
+    color: #FFAA36;
+    font-size: 30px;
+}
+input[type=text], input[type=password], input[type=date] {
+    background-color: #FFAA36;
+    border-color: #FFAA36;
+    width: 70%; 
+    border-radius: 5px;
+    border-color: black;
+    border-width: thin;
+}
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+th,td{
+    border: none;
+    background-color: #000000; 
+    color: #FFAA36;
+    text-align: center;
+}
+bio{
+    display: inline;
+    padding: 5px;
+    color: #FFAA36;
+    font-size: 15px;
+    font-weight: 400;
+}
